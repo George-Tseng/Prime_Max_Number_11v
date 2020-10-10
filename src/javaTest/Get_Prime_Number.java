@@ -654,7 +654,7 @@ public class Get_Prime_Number {
 
         timeEnd = Get_Date.getDateNow();
         System.out.print("\n以BigDecimal型別找質數總和方法二已完成，");
-        System.out.println(Get_Date.getTimeDifference(timeStart, timeEnd));
+        System.out.println(Get_Date.getTimeDifference(timeStart, timeEnd)+"\n");
         return result;
     }
 

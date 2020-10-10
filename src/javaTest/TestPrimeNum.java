@@ -1,6 +1,7 @@
 package javaTest;
 
 import java.math.BigDecimal;
+import java.text.ParseException;
 import java.util.Scanner;
 
 public class TestPrimeNum {
@@ -157,9 +158,9 @@ public class TestPrimeNum {
                         break;
                     }
                 }
-            } catch (Exception E) {
-                System.out.print("發生錯誤！情況為：");
-                System.out.println(E);
+            } catch (ParseException PE) {
+                System.out.println("發生錯誤！情況為：");
+                System.out.println(PE.getMessage());
             }
         }
 
